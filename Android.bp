@@ -294,6 +294,7 @@ cc_test {
         "contrib/tests/utils_unittest.cc",
     ],
     cflags: [
+        "-DCMAKE_STANDALONE_UNITTESTS",
         "-Wno-unused-parameter",
     ],
     include_dirs: [
